@@ -1,0 +1,43 @@
+@font-face{
+	font-family: AnotherdayinParadise;
+	src:url("fonts/AnotherdayinParadise.ttf");
+
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+h1{
+	font-family: AnotherdayinParadise;
+	font-size: 70px;
+}
+
+#wrapper{
+	width: 980px;
+	background-color: lightgreen;
+	position: absolute;
+	left: 25%;
+}
+
+ul{
+	float: left;
+	position: absolute;
+	left: 40%;
+	margin-top: 10px;
+ 
+}
+li{
+	list-style-type: none;
+	display: inline-block;
+	background-color: lightgreen;
+	margin-right: 10px;
+}
+a{
+	text-decoration: none;
+	font-size: 30px;
+
+}
